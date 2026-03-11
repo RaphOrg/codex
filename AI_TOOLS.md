@@ -7,9 +7,9 @@ plus the app-server RPC methods or request/notification surfaces that expose or 
 
 The most useful source files are:
 
-- `codex-rs/core/src/tools/spec.rs` — authoritative built-in tool inventory and feature gating
+- `codex-rs/core/src/tools/spec.rs` — authoritative built-in tool inventory, feature gating,
+  handler registration, and aliases
 - `codex-rs/core/src/tools/handlers/` — implementation of the built-in tool handlers
-- `codex-rs/core/src/tools/spec.rs` (`builder.register_handler(...)`) — handler registration and aliases
 - `codex-rs/app-server/README.md` — JSON-RPC method names and request/notification flows
 - `codex-rs/app-server-protocol/src/protocol/v2.rs` — typed protocol definitions
 
